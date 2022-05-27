@@ -7,7 +7,7 @@ public class MyDaoFactory {
 
 	private static TelevisoreDAO TELEVISORE_DAO_INSTANCE = null;
 
-	public static TelevisoreDAO getAbitanteDAOInstance() {
+	public static TelevisoreDAO getTelevisoreDAOInstance() {
 		if (TELEVISORE_DAO_INSTANCE == null)
 			TELEVISORE_DAO_INSTANCE = new TelevisoreDAOImpl();
 
