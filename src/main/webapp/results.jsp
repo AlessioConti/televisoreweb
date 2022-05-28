@@ -47,7 +47,7 @@
 	
 	</table>
 	
-	<form action="PrepareInsertServlet">
+	<form action="PrepareInsertTelevisoreServlet">
 	<input type="submit" value="Aggiungi un nuovo Televisore">
 	</form>
 	
